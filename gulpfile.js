@@ -15,8 +15,6 @@ var gulp           = require('gulp'),
  		rigger				 = require('gulp-rigger'),
 		rsync          = require('gulp-rsync');
 
-// Пользовательские скрипты проекта
-
 gulp.task('common-js', function() {
 	return gulp.src([
 		'app/js/common.js'
@@ -28,13 +26,12 @@ gulp.task('common-js', function() {
 
 gulp.task('js', ['common-js'], function() {
 	return gulp.src([
-		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/jquery/jquery-3.2.1.min.js',
 		'app/libs/bootstrap-3.3.7-dist/js/bootstrap.min.js',
-		'app/js/common.min.js' // Всегда в конце
+		'app/js/common.min.js'
 		])
 	.pipe(concat('scripts.min.js'))
-	// .pipe(uglify()) // Минимизировать весь js (на выбор)
+	// .pipe(uglify())
 	.pipe(gulp.dest('app/js'))
 	.pipe(browserSync.reload({stream: true}));
 });
@@ -46,7 +43,6 @@ gulp.task('browser-sync', function() {
 		},
 		notify: false
 		// tunnel: true,
-		// tunnel: "projectmane", //Demonstration page: http://projectmane.localtunnel.me
 	});
 });
 
@@ -55,7 +51,7 @@ gulp.task('scss', function() {
 	.pipe(sass({outputStyle: 'expand'}).on("error", notify.onError()))
 	.pipe(rename({suffix: '.min', prefix : ''}))
 	.pipe(autoprefixer(['last 15 versions']))
-	// .pipe(cleanCSS()) // Опционально, закомментировать при отладке
+	// .pipe(cleanCSS())
 	.pipe(gulp.dest('app/css'))
 	.pipe(browserSync.reload({stream: true}));
 });
@@ -124,7 +120,7 @@ gulp.task('rsync', function() {
 		root: 'dist/',
 		hostname: 'username@yousite.com',
 		destination: 'yousite/public_html/',
-		// include: ['*.htaccess'], // Скрытые файлы, которые необходимо включить в деплой
+		// include: ['*.htaccess'],
 		recursive: true,
 		archive: true,
 		silent: false,
