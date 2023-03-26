@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>AdamSpoke scss</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#fff">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#fff">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+	<main class="wrapper">
+		<div class="header">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-5 col-sm-5 text-center">
+						<div class="col-md-12 header-social hidden-xs">
+							<a class="btn btn-default google" href="https://accounts.google.com/signin" role="button" onclick="newWindow(this.href); return false;">
+								<i class="fa fa-google-plus fa-lg"  ></i>
+							</a>
+							<a class="btn btn-info twitter" href="https://twitter.com" role="button" onclick="newWindowTweet(this.href); return false;">
+								<i class="fa fa-twitter fa-lg"  > Tweet </i>
+							</a>
+							<a class="btn btn-primary facebook" href="https://www.facebook.com/" role="button" onclick="newWindowTweet(this.href); return false;">
+								<i class="fa fa-facebook fa-lg"  > Like </i>
+							</a>
+						</div>
+						<div class="row header-adam">
+							<div class="col-md-6 col-sm-6 col-xs-6">
+								<h2>Adam Spoke</h2>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6">
+								<h2 class="header-line"><span>family psychologist</span></h2>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 col-sm-7 text-center header-items">
+						<div class="row">
+							<div class="col-md-2 col-sm-2 col-xs-6">
+								<ul>
+									<li><a href="#"><i class="fa fa-globe fa-2x"  ></i> <p>Main</p></a></li>
+								</ul>
+							</div>
+							<div class="col-md-2 col-sm-2 col-xs-6">
+								<ul>
+									<li class="dropdown header-about">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user fa-2x"   ></i><p>About Me</p></a>
+										<ul class="dropdown-menu">
+											<li><a href="indexPresentation.html">presentation</a></li>
+											<li><a href="indexCalendar.html">calendar</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-2 col-sm-2 col-xs-6">
+								<ul>
+									<li><a href="indexService.html"><i class="fa fa-cogs fa-2x"></i><p>Services</p></a></li>
+								</ul>
+							</div>
+							<div class="col-md-2 col-sm-2 col-xs-6">
+								<ul>
+									<li><a href="indexArticles.html"><i class="fa fa-pencil-square-o fa-2x"></i><p>Articles</p></a></li>
+								</ul>
+							</div>
+							<div class="col-md-2 col-sm-2 col-xs-12">
+								<ul>
+									<li><a href="indexContacts.html"><i class="fa fa-at fa-2x"></i><p>Contacts</p></a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="clearfix">
+
+		</div>
+
+		<div id="carousel-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-generic" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="img/slider1.jpg" alt="Beautiful summer">
+				</div>
+				<div class="item">
+					<img src="img/slider2.jpg" alt="Happy child">
+				</div>
+				<div class="item">
+					<img src="img/slider3.jpg" alt="Life is perfect - smile!">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="clearfix">
+
+		</div>
+
+		<div class="container-fluid text-center stopStress">
+			<div class="row">
+				<p>Stop Stress! Live in Harmonious Life!</p>
+			</div>
+		</div>
+
+		<div class="clearfix">
+
+		</div>
+
+		<div class="kinds text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>Beciegast nveriti vitaesaert asety kertya aset aplica boserde nerafae kertyurauestyasnemo faserani  iasera khatrsasas <br>
+							ptaiadeser daesraeds. Casrolern atur aut oditaut. onsequuntur magni dolqui ratione voluptatemsequi nesciunt orasario jauystase joasuaserya vytarsa <br>
+							numquam eius modi teincidunt, ut labore et dolore magnam liaseras.</p>
+					</div>
+				</div>
+				<!-- Триггер кнопка модали-->
+				<button type="button" class="button" data-toggle="modal" data-target="#myModal">more</button>
+				<!-- Модаль -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span  >&#11608;</span></button>
+								<h4 class="modal-title" id="myModalLabel">Read More 1</h4>
+							</div>
+							<div class="modal-body">
+								<p><span>Fugitsed quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet.</span><br>
+									Consectetur adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus ser tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante.</p>
+
+								<p><span>Quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet ate rporta.</span><br>
+									Adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapib.</p>
+
+								<p><span>Fugitsed quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet.</span><br>
+									Consectetur adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut.</p>
+
+								<p><span>Quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet ate rporta.</span><br>
+									Adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus ser tincidunt
+									metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante.</p>
+
+								<p><span>Fugitsed quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet.</span><br>
+									Consectetur adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row kinds-terapy">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<img src="img/terapy/woman.jpg" alt="woman">
+							<!-- Триггер кнопка модали-->
+							<button type="button" class="button-bedtime button-terapy" data-toggle="modal" data-target="#myModal1">Bedtime Tips<i class="fa fa-angle-right"></i></button>
+							<!-- Модаль -->
+							<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabelBlue">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span  >&#11608;</span></button>
+											<h4 class="modal-title" id="myModalLabelBlue">Read More 2</h4>
+										</div>
+										<div class="modal-body">
+											<p><span>Fugitsed quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet.</span><br>
+												Consectetur adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus ser tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante.</p>
+
+											<p><span>Quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet ate rporta.</span><br>
+												Adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapib.</p>
+
+											<p><span>Fugitsed quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet.</span><br>
+												Consectetur adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut.</p>
+
+											<p><span>Quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet ate rporta.</span><br>
+												Adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus ser tincidunt
+												metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante.</p>
+
+											<p><span>Fugitsed quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet.</span><br>
+												Consectetur adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<img src="img/terapy/man.jpg" alt="man">
+							<!-- Триггер кнопка модали-->
+							<button type="button" class="button-clinical button-terapy" data-toggle="modal" data-target="#myModal2">Clinical Psychology<i class="fa fa-angle-right"></i></button>
+							<!-- Модаль -->
+							<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span  >&#11608;</span></button>
+											<h4 class="modal-title" id="myModalLabel2">Read More 3</h4>
+										</div>
+										<div class="modal-body">
+											<p><span>Fugitsed quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet.</span><br>
+												Consectetur adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus ser tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante.</p>
+
+											<p><span>Quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet ate rporta.</span><br>
+												Adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapib.</p>
+
+											<p><span>Fugitsed quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet.</span><br>
+												Consectetur adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut.</p>
+
+											<p><span>Quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet ate rporta.</span><br>
+												Adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus ser tincidunt
+												metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante.</p>
+
+											<p><span>Fugitsed quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet.</span><br>
+												Consectetur adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula.
+											</p>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<img src="img/terapy/hand2.jpg" alt="hand">
+							<!-- Триггер кнопка модали-->
+							<button type="button" class="button-parent button-terapy" data-toggle="modal" data-target="#myModal3">Parent-Child Therapy<i class="fa fa-angle-right"></i></button>
+							<!-- Модаль -->
+							<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span  >&#11608;</span></button>
+											<h4 class="modal-title" id="myModalLabel3">Read More 4</h4>
+										</div>
+										<div class="modal-body">
+											<p><span>Fugitsed quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet.</span><br>
+												Consectetur adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus ser tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante.</p>
+
+											<p><span>Quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet ate rporta.</span><br>
+												Adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapib.</p>
+
+											<p><span>Fugitsed quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet.</span><br>
+												Consectetur adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut.</p>
+
+											<p><span>Quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet ate rporta.</span><br>
+												Adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus ser tincidunt
+												metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante.</p>
+
+											<p><span>Fugitsed quiuntu rasera ater porta queuen naeyt sree nmioliste port ater rsene amet. Eque porro quisquam estqui dolorem ipsumquia  dolor sitmet.</span><br>
+												Consectetur adipisci. Belit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore ater magnam aliquam quaerat voluptatem. ut enim ad minima ven m, quis nost. Rum exercitationem ullam. Corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris aetrse accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+					</div>
+				</div>
+
+				<div class="clearfix">
+				</div>
+
+				<div class="row public">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="col-md-2 col-sm-2 col-xs-2">
+							<p class="plus">&#43;</p>
+						</div>
+						<div class="col-md-10 col-sm-10 col-xs-10 text-left">
+							<h3>perfect experience</h3>
+							<h4>migytafsas lhtfasane feryuasa keryaseares</h4>
+							<h5>Vitaesaert asetyertya aset aplicabrde vaeciegast nveriti vrtyas</h5>
+							<a href="#">learn more <i class="fa fa-chevron-circle-right"  ></i></a>
+						</div>
+						<hr>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="col-md-2 col-sm-2 col-xs-2">
+							<p class="plus">&#43;</p>
+						</div>
+						<div class="col-md-10 col-sm-10 col-xs-10 text-left">
+							<h3>family consultations</h3>
+							<h4>vehtfasane feryuasa kerymigyt afsasera</h4>
+							<h5>Beciegast nveriti vitaesaert asetyertya aset aplicabrde ertyas</h5>
+							<a href="#">learn more <i class="fa fa-chevron-circle-right"></i></a>
+						</div>
+						<hr>
+					</div>
+				</div>
+				<div class="row public">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="col-md-2 col-sm-2 col-xs-2">
+							<p class="plus">&#43;</p>
+						</div>
+						<div class="col-md-10 col-sm-10 col-xs-10 text-left">
+							<h3>new publications</h3>
+							<h4>migytafsas lhtfhasane feryuasa keryaseares</h4>
+							<h5>Vitaesaert asetyertya aset aplicabrde vaeciegast nveriti vrtyas</h5>
+							<a href="#">learn more <i class="fa fa-chevron-circle-right"  ></i></a>
+						</div>
+						<hr>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="col-md-2 col-sm-2 col-xs-2">
+							<p class="plus">&#43;</p>
+						</div>
+						<div class="col-md-10 col-sm-10 col-xs-10 text-left">
+							<h3>news & events</h3>
+							<h4>vehtfasane feryuasa kerymigyt afsasera</h4>
+							<h5>Beciegast nveriti vitaesaert asetyertya aset aplicabrde ertyas</h5>
+							<a href="#">learn more <i class="fa fa-chevron-circle-right"  ></i></a>
+						</div>
+						<hr>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="container contacts-more">
+				<div class="col-md-5 col-sm-5">
+					<h3>testimonials</h3>
+					<div>
+						<div>
+							<img class="img-responsive" src="img/footer/images.jpg" alt="family">
+						</div>
+						<div>
+							<p><span>Lisa & David</span> <br>
+								Vitaesaert asetyertya asetrde maeciegast nieriti vrtye remiades.Molirnatur aut oditaut. onsq ntmagni dolores eo qui ratione.
+								<br>
+							Nasgaesaert asetyertya asetrde maeciegast nieriti vrtye remiades.Molirnatur aut oditaut.
+								<a href="#"><i class="fa fa-chevron-circle-right"  ></i></a>
+
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<h3>links</h3>
+					<ul class="fa-ul">
+						<li><a href="#"><i class="fa fa-li fa-chevron-circle-right"  ></i> muygasa kausyse</a></li>
+						<li><a href="#"><i class="fa fa-li fa-chevron-circle-right"  ></i> nuyatsas</a></li>
+						<li><a href="#"><i class="fa fa-li fa-chevron-circle-right"  ></i> batresa ksate</a></li>
+						<li><a href="#"><i class="fa fa-li fa-chevron-circle-right"  ></i> greghasa mero</a></li>
+						<li><a href="#"><i class="fa fa-li fa-chevron-circle-right"  ></i> lanytadas nyats</a></li>
+						<li><a href="#"><i class="fa fa-li fa-chevron-circle-right"  ></i> nuyatsas lasras batsas</a></li>
+						<li><a href="#"><i class="fa fa-li fa-chevron-circle-right"  ></i> batresa</a></li>
+						<li><a href="#"><i class="fa fa-li fa-chevron-circle-right"  ></i> ksayts faser</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-3 adress">
+					<h3>locations</h3>
+					<h2>Adam Spoke</h2>
+					<h4>28 Jackson Blvd Ste 1020 <br> Chicago <br>
+						IL 60604-2340</h4>
+					<hr>
+					<i class="fa fa-envelope-open"  ><a href="mailto:example@mail.ru">mail@demolink.org</a></i>
+				</div>
+			</div>
+
+			<div class="clearfix">
+
+			</div>
+
+			<div class="container-fluid text-center links">
+				<div class="row">
+					<div>
+						<a class="fa-stack " href="https://twitter.com" role="button" onclick="newWindowTweet(this.href); return false;">
+							<i class="fa fa-twitter"></i>
+						</a>
+
+						<a class="fa-stack " href="https://www.facebook.com" role="button" onclick="newWindowTweet(this.href); return false;">
+							<i class="fa fa-facebook"></i>
+						</a>
+						<a class="fa-stack " href="https://www.linkedin.com" role="button" onclick="newWindowTweet(this.href); return false;">
+							<i class="fa fa-rss"></i>
+						</a>
+						<a class="fa-stack " href="https://accounts.google.com/signin" role="button" onclick="newWindow(this.href); return false;">
+							<i class="fa fa-google"></i>
+						</a>
+					</div>
+					<div>
+						<h3><span>adam spoke </span>
+							<i class="fa fa-copyright"> 2014 &#8226;</i>
+							privacy policy
+						</h3>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4 col-sm-4">
+						<form class="form-inline">
+							<div class="form-group">
+								<input type="search" class="form-control" id="search">
+								<label for="search" class="control-label">search</label>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+
+	</main>
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>

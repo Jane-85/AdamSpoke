@@ -1,0 +1,428 @@
+@import "vars";
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+
+}
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+  .header{
+    .header-items{
+      ul{
+        padding: 15px 4px;
+      }
+      .header-about{
+        .dropdown-menu{
+          left: -5%;
+          a{
+            padding: 3px 10px;
+          }
+        }
+      }
+    }
+  }
+  .kinds-terapy{
+    img {
+      height: 215px;
+    }
+    i{
+      padding-left: 10px;
+    }
+    .button-terapy{
+      padding: 15px 0;
+      font-size: 24px;
+    }
+  }
+  .contacts-more {
+    h3 {
+      font-size: 33px;
+      margin-bottom: 35px;
+    }
+    p{
+      font-size: 16px;
+      span{
+        font-size: 25px;
+      }
+    }
+    .adress{
+      h2{
+        font-size:33px;
+        margin-bottom: 30px;
+      }
+      h4{
+        font-size: 20px;
+      }
+      .fa-envelope-open{
+        margin-top: 1px;
+        a{
+          margin-left: 10px;
+        }
+      }
+    }
+    .fa-ul{
+      a{
+        line-height: 30px;
+      }
+      .fa{
+        font-size: 20px;
+      }
+    }
+  }
+  .service{
+    .service-terapy {
+      .row {
+        margin-bottom: 25px;
+      }
+      h4{
+        margin-top: -7px;
+      }
+      p{
+        margin: 0;
+        font-size: 16px;
+      }
+    }
+  }
+  .articles{
+    h3{
+      font-size: 41px;
+    }
+    .articles-reviews{
+      h3{
+        margin-bottom: 5px;
+      }
+    }
+    .articles-hot, .articles-reviews, .articles-news{
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+.header{
+  .header-adam{
+    margin: 20px 0;
+    h2 {
+      font-size: 36px;
+    }
+  }
+  .header-items{
+    ul{
+      padding: 0;
+      border-top: 1px solid $white;
+      a{
+        i{
+          margin: 17px 0 10px 0;
+        }
+        p{
+          margin: 0;
+          padding-bottom: 10px;
+        }
+      }
+    }
+    .header-about{
+      .dropdown-menu{
+        left: 0;
+        top: 100%;
+      }
+    }
+  }
+}
+  .stopStress{
+    font-size: 30px;
+    p{
+      margin: 30px 0;
+      padding: 0 51px;
+    }
+  }
+  .kinds-terapy{
+    img {
+      height: 260px;
+    }
+    i{
+      padding-left: 8px;
+    }
+    .button-terapy{
+      font-size: 22px;
+    }
+  }
+  .public{
+    .plus{
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      font-size: 28px;
+      margin-top: 20px;
+    }
+    h3{
+      font-size: 28px;
+    }
+    h4{
+      font-size: 18px;
+    }
+    h5{
+      font-size: 15px;
+    }
+  }
+  .links{
+    h3{
+      font-size: 22px;
+    }
+  }
+  .kinds{
+    .modal-header {
+      padding: 15px 15px 10px 0;
+      h4{
+        font-size: 27px;
+      }
+      .modal-title{
+        margin-left: 20px;
+      }
+      .close:hover, :active, :focus {
+        font-size: 20px;
+      }
+    }
+    .modal-content{
+      width: 380px;
+    }
+    .modal-body {
+      max-height: 450px;
+      margin: 0;
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .service{
+    h3{
+      margin-bottom: 25px;
+    }
+    .service-terapy {
+      p{
+        line-height: 1.4;
+      }
+    }
+  }
+  .articles{
+    h3{
+      margin-bottom: 25px;
+    }
+    .articles-news{
+      img{
+        margin: 7px 30px 7px 7px;
+      }
+    }
+  }
+  .contacts{
+    padding-bottom: 20px;
+    iframe{
+      height: 380px;
+    }
+    .contacts-find{
+      margin-top: 15px;
+      h3{
+        font-size: 38px;
+        margin-bottom: 25px;
+      }
+    }
+    .contacts-form{
+      input{
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .presentation, .calendar{
+    padding-bottom: 40px;
+    h3{
+      font-size: 38px;
+      margin-bottom: 25px;
+    }
+    p{
+      font-size: 16px;
+    }
+  }
+}
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+  .header{
+    .header-adam{
+      margin: 10px 0;
+      h2 {
+        font-size: 30px;
+        span{
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .stopStress{
+    font-size: 25px;
+    p{
+      margin: 30px 0;
+      padding: 0 51px;
+    }
+  }
+  .kinds {
+    p {
+      padding: 20px 0;
+      font-size: 14px;
+    }
+    .button{
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      font-size: 15px;
+    }
+  }
+  .kinds-terapy{
+    margin-top: 0;
+    margin-bottom: 0;
+    img {
+      height: 0;
+      visibility: hidden;
+    }
+    .button-terapy{
+      white-space: normal;
+    }
+  }
+  .links{
+    .fa-stack {
+      margin: 20px 0 15px;
+      font-size: 22px;
+      width: 32px;
+      height: 32px;
+      line-height: 32px;
+    }
+    h3{
+      font-size: 16px;
+    }
+    .form-inline {
+      margin: 12px 0;
+    }
+  }
+  .kinds{
+    .modal-content{
+      width: 300px;
+    }
+  }
+  .articles{
+    .articles-hot, .articles-reviews, .articles-news{
+      h4{
+        font-size: 21px;
+      }
+      p{
+        font-size: 16px;
+        line-height: 1.4;
+      }
+    }
+    a{
+      i{
+        padding-left: 0;
+      }
+    }
+    .articles-news{
+      .fa-ul{
+        a{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .contacts{
+    padding-bottom: 10px;
+    iframe{
+      height: 300px;
+    }
+    .contacts-find{
+      margin-top: 0;
+      h3{
+        font-size: 30px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+    .contacts-form{
+      input{
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .presentation, .calendar{
+    padding-bottom: 10px;
+    iframe{
+      height: 300px;
+    }
+    h3{
+      font-size: 30px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    p{
+      font-size: 16px;
+    }
+    .presentation-video, .calendar-info {
+      margin-top: 20px;
+    }
+  }
+}
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+
+}
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+
+}
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+
+}
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+
+}
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+
+}
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+
+}
+	/**/
+
